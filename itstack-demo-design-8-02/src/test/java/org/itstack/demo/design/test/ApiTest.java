@@ -45,7 +45,7 @@ public class ApiTest {
 
         // 链接：1->12
         TreeNodeLink treeNodeLink_12 = new TreeNodeLink();
-        treeNodeLink_12.setNodeIdTo(1L);
+        treeNodeLink_12.setNodeIdFrom(1L);
         treeNodeLink_12.setNodeIdTo(12L);
         treeNodeLink_12.setRuleLimitType(1);
         treeNodeLink_12.setRuleLimitValue("woman");
@@ -76,7 +76,7 @@ public class ApiTest {
         TreeNodeLink treeNodeLink_112 = new TreeNodeLink();
         treeNodeLink_112.setNodeIdFrom(11L);
         treeNodeLink_112.setNodeIdTo(112L);
-        treeNodeLink_112.setRuleLimitType(5);
+        treeNodeLink_112.setRuleLimitType(4);
         treeNodeLink_112.setRuleLimitValue("25");
 
         List<TreeNodeLink> treeNodeLinkList_11 = new ArrayList<>();
@@ -105,7 +105,7 @@ public class ApiTest {
         TreeNodeLink treeNodeLink_122 = new TreeNodeLink();
         treeNodeLink_122.setNodeIdFrom(12L);
         treeNodeLink_122.setNodeIdTo(122L);
-        treeNodeLink_122.setRuleLimitType(5);
+        treeNodeLink_122.setRuleLimitType(4);
         treeNodeLink_122.setRuleLimitValue("25");
 
         List<TreeNodeLink> treeNodeLinkList_12 = new ArrayList<>();
